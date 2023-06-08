@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Navbar section */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 2rem;
+    height: 13vh;
+}
+.logo{
+    cursor: pointer;
+}
+.grouplist{
+    display: flex;
+    gap: 2.5rem;
+    list-style-type: none;
+}
+li{
+    font-family: 'Lucida Sans';
+    font-size: larger;
+    color: #ece6e6;
+    transition: 0.5s;
+}
+li:hover{
+    cursor: pointer;
+    color: #31b2cf;
+    scale: 1.2;
+}
+.login-button{
+    padding: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border: none;
+    font-size: large;
+    font-family: 'Lucida Sans';
+    cursor: pointer;
+    border-radius: 30px;
+    background-color: #155bcd;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.login-button:hover{
+    scale: 1.1;
+    border-radius: 10px;
+}
+#dropdownlist{
+    display: none;
+}
+@media screen and (max-width:950px){
+    .grouplist{
+        display: none;
+    }
+    #dropdownlist{
+        margin-left: 20rem;
+        border: none;
+        background-color: #000000;
+        color: #ffffff;
+        display: block;
+    }
+}
+@media screen and (max-width:750px){
+    #dropdownlist{
+        margin-left: 10rem;
+    }
+}
+@media screen and (max-width:580px){
+    #dropdownlist{
+        display: none;
+    }
+}
