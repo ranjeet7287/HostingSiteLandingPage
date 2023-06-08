@@ -155,3 +155,138 @@ li:hover{
         display:none;
     }
 }
+
+
+/* Services Section */
+.service-section{
+    padding: 5rem 3rem;
+    background-color: #c7c7c7;
+}
+.service-content{
+    text-align: center;
+}
+#service-heading{
+    font-size: 3rem;
+    font-weight: 900;
+}
+#service-para{
+    font-size: larger;
+    padding: 2rem;
+    color: #463838;
+}
+.service-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 5rem 0rem;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #0e2e69;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 20px;
+    padding: 1rem;
+    margin-top: 50px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.box:hover{
+    scale: 1.1;
+    background-color: #4a66d6;
+    color: white;
+    border-radius: 10px;
+}
+.box-heading{
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding:10px;
+}
+.box-para{
+    font-size: larger;
+    margin-top: 20px;
+    color: #000000;
+}
+.box-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #1932d7;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: #000000;
+    transition: 0.3s;
+
+}
+.box-2:hover{
+    scale: 1.1;
+    background-color: #7483c0;
+}
+@media screen and (max-width:1000px) {
+    .service-grid{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        margin-top: 20px;
+    }
+    .box-2{
+        margin-top: 20px;
+    }
+}
+.business-heading{
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 0.3rem;
+}
+.business-box{
+    background-color: #1a7bf2;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    padding: 1rem;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 30px;
+    margin: 2rem 4rem;
+}
+.business-box-2{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    width: 30rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 30px;
+    margin: 2rem 4rem;
+    
+}
+.business-box-para{
+    margin:15px;
+}
+
+.business-container{
+    display: flex;
+}
+/* features container */
+.features-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #000000;
+    color: white;
+}
+.features-box{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #1a7bf2;
+}
