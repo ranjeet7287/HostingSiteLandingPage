@@ -141,8 +141,17 @@ li:hover{
         flex-direction: column;
     }
 }
+.logosection{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #03203C;
+}
 @media screen and (max-width:600px){
     .intro-image{
         display: none;
+    }
+    .logosection {
+        display:none;
     }
 }
