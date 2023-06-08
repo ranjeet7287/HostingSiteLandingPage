@@ -7,6 +7,7 @@ body{
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Lucida Sans';
 }
 
 
@@ -48,7 +49,7 @@ li:hover{
     font-family: 'Lucida Sans';
     cursor: pointer;
     border-radius: 30px;
-    background-color: #155bcd;
+    background-color:#1a7bf2;
     color: #ffffff;
     transition: 0.5s;
 }
@@ -78,6 +79,70 @@ li:hover{
 }
 @media screen and (max-width:580px){
     #dropdownlist{
+        display: none;
+    }
+}
+
+/* Intro section */
+.intro{
+    display: flex;
+    padding: 2rem;
+    background-color: #000000;
+    color: #ffffff;
+}
+.intro-heading{
+    font-size: 4rem;
+    font-weight: 500;
+}
+#cheapest{   
+    font-style: italic;
+    color:#3d91f8;
+}
+.intro-para{
+    font-size: 1.4rem;
+    margin: 2rem 0 4rem 0;
+    color: #686666;
+}
+.get-btn{
+    padding: 1.2rem 1.7rem;
+    font-size: larger;
+    border: none;
+    background-color: #1a7bf2;
+    color: #ffffff;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+.get-btn:hover{
+    scale: 1.1;
+}
+.start-btn{
+    padding: 1rem 1.5rem;
+    font-size: larger;
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+.start-btn:hover{
+    scale: 1.1;
+}
+.intro-image{
+    padding: 1rem;
+}
+@media screen and (max-width:950px) {
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:600px){
+    .intro-image{
         display: none;
     }
 }
