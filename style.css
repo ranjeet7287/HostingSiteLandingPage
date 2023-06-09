@@ -515,3 +515,84 @@ li:hover{
 .rating-stars{
     margin-top: 1rem;
 }
+
+
+/* footer-container */
+.footer-container{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 4rem;
+}
+.footer-content{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.footer-input{
+    background-color: #2b2c30;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    border-radius: 30px;
+    margin: 4rem 0rem;
+}
+.input-box{
+    padding: 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #000000;
+    color: white;
+    font-size: large;
+}
+@media screen and (max-width:1000px){
+    .footer-input{
+        display: flex;
+        flex-direction: column;
+    }
+    .input-box{
+        margin: 1rem;
+    }
+    
+}
+.signup-btn{
+    padding: 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #2e64e1;
+    font-size: large;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.signup-btn:hover{
+    scale: 1.1;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 5rem 0rem;
+}
+.contact-heading{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.contact-ul{
+    list-style-type: none;
+}
+.contact-li{
+    font-size: 1rem;
+    margin: 1rem;
+    font-weight: 100;
+}
+@media screen and (max-width:500px) {
+    .contact-heading{
+        font-size: 1rem;
+    }
+    .contact-li{
+        font-size: 0.7rem;
+    }
+}
+.footer-logo{
+    padding: 1rem;
+}
