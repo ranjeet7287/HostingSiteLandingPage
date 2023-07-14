@@ -20,6 +20,9 @@ body{
     color: #ffffff;
     padding: 2rem;
     height: 13vh;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
 }
 .logo{
     cursor: pointer;
@@ -90,6 +93,7 @@ li:hover{
     padding: 2rem;
     background-color: #000000;
     color: #ffffff;
+    padding-top: 7rem;
 }
 .intro-heading{
     font-size: 4rem;
